@@ -33,7 +33,7 @@
                                 <tr>
                                     <th style="width: 2%"><input type="checkbox" class="main_checkbox" name="main_checkbox">
                                     </th>
-                                    <th>Employee Image</th>
+                                    <th style="width: 5%">Image</th>
                                     <th>name</th>
                                     <th>email</th>
                                     <th>age</th>

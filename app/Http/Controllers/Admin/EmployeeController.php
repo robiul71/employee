@@ -39,7 +39,7 @@ class EmployeeController extends Controller
                 return json_decode( $data->hobbies);
             })
             ->editColumn('birth',function ($data) {
-                return $data->birth->format('d-M-Y');
+                return $data->birth->format('d F Y');
             })
                 ->editColumn('status', function ($data) {
                     $button = 'btn-danger';
