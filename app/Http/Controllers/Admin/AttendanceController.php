@@ -26,7 +26,7 @@ class AttendanceController extends Controller
                 return $data->employee->name;
             })
             ->editColumn('date',function ($data) {
-                return $data->date->format('d-M-Y');
+                return $data->date->format('d F Y');
             })
             ->editColumn('clock_in',function ($data) {
                 return $data->clock_in;
