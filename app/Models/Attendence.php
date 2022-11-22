@@ -9,6 +9,7 @@ class Attendence extends Model
 {
     use HasFactory;
     protected $dates=['date'];
+    protected $times=['clock_in','clock_out'];
     protected $guarded=[];
 
     public function employee(){

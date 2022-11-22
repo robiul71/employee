@@ -14,7 +14,7 @@
     </style>
 @endpush
 @section('page_name')
-    Category
+attendance
 @endsection
 @section('content')
     <div class="container-fluid">
@@ -23,7 +23,7 @@
                 <div class="card">
                     <div class="card-header">
                         <button class="btn btn-rounded btn-md btn-success show-modal float-right veiwbutton "
-                            data-url="{{ route('attendance.create') }}">Create New Attendance</button>
+                            data-url="{{ route('attendance.create') }}">Create New attendance</button>
                     </div>
 
                     <div class="card-body">
