@@ -1,7 +1,7 @@
 <div class="modal-dialog">
     <div class="modal-content">
         <div class="modal-header">
-            <h5 class="modal-title">Confirmation Delete</h5>
+            <h5 class="modal-title">Confirmation Mark Delete</h5>
 
         </div>
             <form action="{{ route('employee.destroy_all') }}" method="post" class="form-submit">

@@ -37,7 +37,7 @@
                         <div class="form-group">
                             <label for="">Employee date of birth</label>
                             <input type="date" name="birth" id="" class="form-control"
-                            value="{{$admin_employee->birth }}" aria-describedby="helpId">
+                            value="{{$admin_employee->birth->format('Y-m-d')}}" aria-describedby="helpId"> 
                         </div>
                     </div>
                     <div class="col-md-6">
